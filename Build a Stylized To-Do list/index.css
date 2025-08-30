@@ -1,0 +1,81 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-color: gray;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+ul{
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start: 0;	
+}	
+
+	
+.todo{
+	border: solid 1px gray;
+	border-radius: 5px;
+	min-height: 475px;
+	background-color: white;
+}
+
+.todo-list{
+	width: 550px;
+	min-height: 350px;
+}
+
+.list-item{
+	width: 425px;
+	min-height: 55px;
+	border: solid 1px gray;
+	border-radius: 5px;
+	list-style: none;
+	margin-bottom: 10px;
+	padding: 15px;
+	background-color: lightgreen;
+}
+
+.sub-item{
+	padding: 10px;
+}
+
+.sub-item li{ 
+	margin-left: 55px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link{
+	color: blue;
+}
+
+a:visited{
+	color: red;
+}
+
+a:hover{
+	color: yellow;
+}
+
+a:focus{
+	outline: 3px solid green;
+}
+
+a:active{
+	color: orange;
+}
