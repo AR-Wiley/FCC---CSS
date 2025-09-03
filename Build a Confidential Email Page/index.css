@@ -1,0 +1,44 @@
+
+body{
+	height: 100vh;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#email{
+	box-sizing: border-box;
+	width: 500px;
+	padding: 50px;
+	margin-top: 50px;
+	border: black solid 2px;
+	background-color: #F2D0A2;
+}
+
+#confidential, #top-secret{
+	display: inline-block;
+	padding: 30px;
+	margin-left: 10px;
+	border: red solid 3px;
+}
+
+#confidential{
+	transform: rotate(-25deg);
+	margin-left: 125px;
+}
+
+#top-secret{
+	transform: rotate(15deg);
+	margin-left: 225px;
+}
+
+.blurred{
+	filter: blur(3px);
+}
+
+
